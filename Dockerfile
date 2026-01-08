@@ -4,6 +4,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y \
     curl \
     mailutils \
+    bind9-dnsutils \
     #bsd-mailx
     # busybox-extras \
     netcat-openbsd \
